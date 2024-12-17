@@ -1,0 +1,65 @@
+a {
+    text-decoration: none !important;
+    color: #555 !important;
+}
+.form {
+    border: 1px solid #ccc;
+}
+input {
+    outline: none;
+    border: none;
+}
+.col-lg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+}
+.col-sm {
+    display: none;
+}
+.dropdown > span , .dropdown > a {
+    user-select: none !important;
+}
+.breadcrumb-item {
+    text-transform: uppercase !important;
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 13px !important;
+}
+.breadcrumb-item > a {
+    transition: all 0.5 ease;
+}
+.breadcrumb-item:hover > a {
+    text-decoration: underline !important;
+}
+.username_heading {
+    line-height: 16px;
+}
+.username {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.category {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+.card-title {
+    overflow: hidden !important;
+}
+.ellipses {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: pre-line;
+}
+@media only screen and (max-width: 850px) {
+    .col-lg {
+        display: none;
+    }
+    .col-sm {
+        display: block !important;
+    }
+  }
